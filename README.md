@@ -1,25 +1,34 @@
-月次売上ダッシュボード
+# 📊 Monthly Sales Dashboard
 
-この Streamlit アプリは、架空の売上データを用いてカテゴリ別・月別の売上分析を行うインタラクティブなダッシュボードです。
+This is an interactive Streamlit dashboard that visualizes fictional sales data by category and month.
 
-## 機能一覧
-カテゴリ別売上推移（折れ線グラフ）
-月次売上（棒グラフ）
-売上構成比（円グラフ）
-売上と利益の相関（散布図）
-売上のばらつき（箱ひげ図）
-売上と利益の比較（サブプロット）
-カテゴリ別売上の時系列アニメーション
-売上と利益率の2軸グラフ
-全体俯瞰のヒートマップ
+## Features
 
-## ファイル構成
+- Line chart: Sales trend by category
+- Bar chart: Monthly sales per category
+- Pie chart: Category share of sales
+- Scatter plot: Sales vs Profit
+- Box plot: Distribution of sales
+- Subplot: Sales and Profit comparison
+- Animated bar chart: Monthly trend by category
+- Dual-axis chart: Sales and profit margin
+- Heatmap: Overview of sales by category and month
+
+
+## Project Structure
+
 monthly_sales_dashboard/
-├── app.py               # Streamlitアプリ本体
-├── sample_sales_data.csv # 架空の売上データ
-├── requirements.txt      # 依存パッケージ一覧
-└── README.md             # 本ドキュメント
+├── app.py # Streamlit app
+├── sample_sales_data.csv # Fictional sales data
+├── requirements.txt # Python dependencies
+└── README.md # This file
 
-## 実行方法
-pip install -r requirements.txt
+
+## How to Run
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   
+2. Launch the app:
 streamlit run app.py
